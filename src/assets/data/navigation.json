@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "link":"Home",
+        "path":""
+    },
+    {
+        "id":2,
+        "link":"Deals",
+        "path":"deals"
+    },
+    {
+        "id":3,
+        "link":"Help Center",
+        "path":"helpcenter"
+    },
+    {
+        "id":4,
+        "link":"Contact",
+        "path":"contact"
+    }
+
+]

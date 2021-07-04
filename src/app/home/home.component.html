@@ -1,0 +1,42 @@
+    <!-- Section title_content -->
+    <section id="title_content">
+        <div id="text_title">
+            <h1>{{Headline}}</h1>
+            <p>{{HeadParagraph}}</p>
+            <a routerLink="" id="shop_now" (mouseover)="presaoPreko()" (mouseout)="izasao()" [@start]="start">{{HeadButton}}</a>
+        </div>
+    </section>
+    <!-- End of Section title content -->
+
+    <!-- Section 2 diva -->
+    <section id="dva_diva">
+        <article class="dva" *ngFor="let promo of promotions" id="{{promo.id}}" [ngStyle]="{'background-image': promo.background}">
+            <div class="info">
+                <p>{{promo.heading}}</p>
+                <h3>{{promo.heading2}}</h3>
+                <a routerLink="{{promo.path}}">{{promo.link}}</a>
+            </div>
+        </article>
+    </section>
+    <!-- End of Section 2 diva -->
+
+    <!-- Section best sellers -->
+    <section id="title_best">
+        <h2>Best Sellers</h2>
+    </section>
+
+    <section id="products">
+        <app-best-seller *ngFor="let product of products" [product]="product"></app-best-seller>
+    </section>
+    <!-- End of Section best sellers -->
+
+     <!-- Email obavestenja -->
+     <section id="email_forma">
+        <h4>{{NewsLetterHeading}}</h4>
+        <p>{{NewsLetterTxt}}</p>
+            <form action="" [formGroup]="forma" (ngSubmit)="onSubmit()">
+                <input type="text" name="mail" id="mail" formControlName="mail" [placeholder]="Plaseholder" [@valid]="forma.get('mail')?.valid">
+                <button id="main_btn" type="submit" [@btnDiv]="btnDiv" (mouseover)="presaoPreko1()" (mouseout)="izasao1()">Subscribe</button>
+            </form>
+    </section>
+    <!-- Kraj diva Email obavestenja -->

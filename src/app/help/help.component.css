@@ -1,0 +1,72 @@
+.touch {
+  width: 100%;
+  color: white;
+  background-color: black;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.touch h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.touch1 {
+  color: black;
+  background-color: white;
+}
+
+#pitanja_odgovori {
+  width: 100%;
+  background-color: white;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+#pitanja_odgovori .drzac_odgovora {
+  width: 60%;
+  background-color: #e9e6e6;
+  margin-top: 2%;
+}
+
+#pitanja_odgovori .drzac_odgovora .pitanje_odg {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+#pitanja_odgovori .drzac_odgovora .pitanje_odg h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#pitanja_odgovori .drzac_odgovora .pitanje_odg .odgovor {
+  background-color: white;
+  width: 100%;
+  padding-top: 3%;
+}
+
+#pitanja_odgovori .drzac_odgovora .pitanje_odg .odgovor p {
+  text-indent: 40px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=help.component.css.map */

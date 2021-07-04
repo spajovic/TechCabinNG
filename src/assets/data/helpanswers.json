@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "question":"How do I keep my laptop’s battery in good health?",
+        "answer":"Honestly, though, batteries have a finite life no matter what, and your efforts will only go so far—so don’t stress about it. Focus your efforts on getting better battery life out of your iPhone, Android phone, or laptop on a given charge instead—and knowing how to replace the battery when it starts dying."
+    },
+    {
+        "id":2,
+        "question":"Do I really need to “eject” USB drives?",
+        "answer":"When you press eject, your PC finishes anything in the queue to make sure you don’t incur any data loss. Windows does a better job of avoiding problems than OS X and Linux, but we recommend ejecting all your drives anyway."
+    },
+    {
+        "id":3,
+        "question":"Why are cables so gosh darn expensive?",
+        "answer":"The truth is, back in the old days, cables with gold-plated connectors or fancy shielding actually produced a better picture, but with modern digital cables—like HDMI, USB, and others—things are much simpler (and cheaper)."
+    },
+    {
+        "id":4,
+        "question":"Why do I need to keep resetting my router?",
+        "answer":"It could be a number of things: maybe it’s overheating, maybe it’s getting bogged down from too much traffic (like BitTorrent), or maybe it’s just a crappy router. Luckily, there are a lot of things you can do to fix it."
+    },
+    {
+        "id":5,
+        "question":"How ergonomically friendly is the phone?",
+        "answer":"Check if the phone is actually comfortable against your ear, and whether you can hear callers without constantly adjusting the phone’s position in your hand. Moreover, can you use the phone in one hand?"
+    },
+    {
+        "id":6,
+        "question":"How easy is it to use phone?",
+        "answer":"Touchscreens are all the rage, as they make it very easy to go from one app to another. But some people find such little nuances as texting a nuisance."
+    }
+]

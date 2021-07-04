@@ -1,0 +1,14 @@
+<section class="touch">
+    <h1>TechCabin Help Center</h1>
+</section>
+<!-- Sadrzaj strane HELP -->
+<section id="pitanja_odgovori">
+    <article class="drzac_odgovora" *ngFor="let an of answers; let i = index">
+        <div class="pitanje_odg">
+            <h2>{{i + 1}} &nbsp; &nbsp; {{an.question | firstUpper}}</h2>
+            <div class="odgovor">
+                <p>{{an.answer | firstUpper}}</p>
+            </div>
+        </div>
+    </article>
+</section>

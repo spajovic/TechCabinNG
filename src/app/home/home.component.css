@@ -1,0 +1,237 @@
+#title_content {
+  width: 100%;
+  background-color: white;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-image: url(../../assets/img/ajdepls.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#title_content #text_title {
+  height: 70%;
+  width: 30%;
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 2%;
+}
+
+#title_content #text_title h1 {
+  font-size: 40px;
+}
+
+#title_content #text_title p {
+  margin-top: 30px;
+  font-weight: normal;
+}
+
+#title_content #text_title a {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  width: 25%;
+  height: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#dva_diva {
+  width: 100%;
+  margin-top: 2%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#dva_diva .dva {
+  width: 49%;
+  height: inherit;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#dva_diva .dva .info {
+  width: 60%;
+  margin-left: 10%;
+}
+
+#dva_diva .dva .info p {
+  font-size: 16px;
+  color: white;
+}
+
+#dva_diva .dva .info h3 {
+  font-size: 30px;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  color: white;
+}
+
+#dva_diva .dva .info a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 30px 5px 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#dva_diva .dva .info a:hover {
+  color: black;
+  background-color: white;
+}
+
+#dva_diva #prvi {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#dva_diva #drugi {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#title_best {
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+}
+
+#title_best h2 {
+  font-size: 30px;
+}
+
+#products {
+  width: 100%;
+  background-color: inherit;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#email_forma {
+  width: 100%;
+  height: auto;
+  background-color: #751fff;
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1%;
+}
+
+#email_forma h4 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 0.5%;
+  margin-top: 1%;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+#email_forma p {
+  color: white;
+  margin-bottom: 1%;
+}
+
+#email_forma #mail {
+  width: 100%;
+  border: none;
+  height: 30px;
+  font-family: inherit;
+  margin-bottom: 0.6%;
+  padding-left: 15px;
+  font-size: 16px;
+  color: black;
+  border-radius: 20px;
+}
+
+#email_forma #mail:focus {
+  outline: none;
+}
+
+#email_forma button {
+  border: none;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 30px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  margin-top: 0.5%;
+  margin-right: 30.5%;
+  -webkit-transition: background-color 0.6s;
+  transition: background-color 0.6s;
+}
+
+#email_forma button:hover {
+  background-color: #9b6de6;
+}
+
+#email_forma button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=home.component.css.map */

@@ -1,1 +1,313 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    #drzac{
+        width:100%;
+        height:auto;
+        background-color: rgb(233, 230, 230);
+            #centriraj_sadrzaj{
+                width:96.5%;
+                height: inherit;
+                margin: 0px auto;
+                background-color: rgb(233, 230, 230);
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+// RESPONSIVE
+@media only screen and (max-width:1700px){
+    #header_menu nav ul{
+        width: 20% !important;;
+    }
+}
+
+@media only screen and(max-width:1600px){
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width:1400px){
+    #header_menu nav ul{
+        width: 30% !important;;
+    }
+    #drzac #centriraj_sadrzaj #products .product{
+        width:85%;
+    }
+    #drzac #centriraj_sadrzaj #email_forma button{
+        margin-right: 28%;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 24%;
+    }
+    #drzac #centriraj_sadrzaj .touch{
+        height: 100px;
+    }
+}
+
+
+@media only screen and (max-width:1300px){
+    #drzac #centriraj_sadrzaj #dva_diva{
+        height: 600px;
+        flex-wrap: wrap;
+    }
+    #drzac #centriraj_sadrzaj #dva_diva .dva{
+        height: 49%;
+        width: 100%;
+        margin-top:1%;
+    }
+    #drzac #centriraj_sadrzaj #email_forma button{
+        margin-right: 27%;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi{
+        flex-wrap: wrap;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 35%;
+    }
+    #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:1200px){
+    #header_menu header #header_popust{
+        display: none !important;
+    }
+    #drzac #centriraj_sadrzaj #email_forma button{
+        margin-right: 26%;
+    }
+    #drzac #centriraj_sadrzaj #contact_form #forma_drzac{
+        width:60%
+    }
+}
+@media only screen and (max-width:1100px){
+    #drzac #centriraj_sadrzaj #title_content #text_title{
+        width:50%
+    }
+    #drzac #centriraj_sadrzaj #products{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #drzac #centriraj_sadrzaj #products .product{
+        width:90%;
+        height: 47%;
+        margin-bottom: 10px;
+    }
+    #drzac #centriraj_sadrzaj #email_forma{
+        height: 200px;
+    }
+    
+}
+
+@media only screen and (max-width:1000px){
+    #drzac #centriraj_sadrzaj #contact_form #forma_drzac{
+        width:75%
+    }
+}
+@media only screen and (max-width:900px){
+    #header_menu nav ul{
+        width: 50% !important;;
+    }
+    #drzac #centriraj_sadrzaj #dva_diva .dva .info h3{
+        font-size: 26px;
+    }
+    #drzac #centriraj_sadrzaj #title_best{
+        height: 75px;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 39%;
+    }
+
+}
+
+@media only screen and (max-width:800px){
+    #drzac #centriraj_sadrzaj #products{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #drzac #centriraj_sadrzaj #products .product{
+        width:90%;
+        margin-bottom: 20px;
+    }
+    #drzac #centriraj_sadrzaj #email_forma #mail{
+        width:60%;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 45%;
+    }
+    #drzac #centriraj_sadrzaj .touch{
+        height: 70px;
+    }
+    #drzac #centriraj_sadrzaj .touch h1{
+        font-size: 36px;
+    }
+    #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora{
+        width:80%;
+    }
+    #drzac #centriraj_sadrzaj #pitanja_odgovori{
+        padding-top: 50px;
+    }
+    
+    
+}
+
+@media only screen and (max-width:700px){
+    #header_menu nav ul{
+        width: 60% !important;
+    }
+    #drzac #centriraj_sadrzaj #products{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0px;
+    }
+    #drzac #centriraj_sadrzaj #products .product{
+        width:95%;
+        height: 25%;
+        margin-top: 20px;
+    }
+    #drzac footer #futer_info{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #drzac footer #futer_info .info_fut{
+        width: 40%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 48%;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img{
+        height: 300px;
+    }
+    #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora .pitanje_odg .odgovor{
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    #drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore{
+        flex-direction: column;
+    }
+    #drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore .input_forma{
+        width: 100% ;
+    }
+    #drzac #centriraj_sadrzaj #contact_form{
+        height: 900px;
+    }
+    #drzac #centriraj_sadrzaj #contact_form #ispod_forme{
+        flex-direction: column;
+    }
+    #drzac #centriraj_sadrzaj #contact_form #ispod_forme button{
+        width: 47%;
+    }
+    #drzac #centriraj_sadrzaj #contact_form #ispod_forme label{
+        font-size: 14px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width:600px){
+    #header_menu nav ul{
+        width: 75% !important;;
+    }
+
+    #drzac #centriraj_sadrzaj #title_content #text_title{
+        width:65%
+    }
+    #drzac #centriraj_sadrzaj #email_forma p{
+        font-size: 14px;
+    }
+    #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora{
+        width:85%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    #header_menu nav ul{
+        width: 70% !important;;
+    }
+    #drzac #centriraj_sadrzaj #title_content #text_title a{
+        width:35%;
+    }
+    #drzac #centriraj_sadrzaj #title_content #text_title h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    #drzac #centriraj_sadrzaj #email_forma button{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 75%;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img{
+        height: 350px;
+    }
+    #drzac #centriraj_sadrzaj .touch h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:450px){
+    #drzac #centriraj_sadrzaj #products{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+    }
+    #drzac #centriraj_sadrzaj #products .product{
+        width:100%;
+        height: 17%;
+        margin-top: 20px;
+    }
+    #drzac footer #futer_info .info_fut{
+        width: 55%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 75%;
+        margin-top: 20px;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img{
+        height: 320px;
+    }
+    #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora{
+        margin-top: 20px;
+    }
+    #drzac #centriraj_sadrzaj #contact_form #forma_drzac{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:400px){
+    #header_menu nav ul{
+        width: 80% !important;
+    }
+    #drzac #centriraj_sadrzaj #dva_diva .dva .info h3{
+        font-size: 24px;
+    }
+    #drzac #centriraj_sadrzaj #products .product{
+        width:100%;
+        height: 17%;
+    }
+    #drzac #centriraj_sadrzaj #proizvodi .proiz{
+        width: 80%;
+        margin-top: 20px;
+    }
+    #drzac #centriraj_sadrzaj .touch h1{
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,9 @@
+<article class="product">
+    <div class="product_img">
+        <img src="{{product.path}}" alt="{{product.alt}}">
+    </div>
+    <p>{{product.name | titlecase}}</p>
+    <del *ngIf="product.newprice">{{product.price}}</del>
+    <small>{{product.price | currency}}$</small>
+    <button class="kupi_proiz" (click)="AddToCart(product)" >{{ButtonValue}}</button>
+</article>

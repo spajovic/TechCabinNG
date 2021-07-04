@@ -1,0 +1,19 @@
+[
+    {
+        "heading":"Holiday Deals",
+        "heading2":"Up to 30% off",
+        "link":"Deals",
+        "path":"deals",
+        "background":"url('../../assets/img/dva-diva/nesto.jpg')",
+        "id":"prvi"
+    },
+    {
+        "heading":"Need Help",
+        "heading2":"Head over to our Help Center",
+        "link":"Help",
+        "path":"helpcenter",
+        "background":"url('../../assets/img/dva-diva/nesto3.jpg')",
+        "id":"drugi"
+    }
+
+]

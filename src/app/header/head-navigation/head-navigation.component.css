@@ -1,0 +1,86 @@
+#header_menu header {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+}
+
+#header_menu header #header_naslov {
+  width: 20%;
+  height: inherit;
+}
+
+#header_menu header #header_naslov h1 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+#header_menu header #header_naslov h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+#header_menu header #header_popust {
+  width: 20%;
+  height: inherit;
+  font-size: 16px;
+  background-color: #751fff;
+  color: white;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+#header_menu nav {
+  width: 100%;
+  height: 50px;
+  background-color: #e9e6e6;
+}
+
+#header_menu nav .active {
+  color: #751fff !important;
+  border-bottom: 1px solid #751fff;
+}
+
+#header_menu nav ul {
+  width: 15%;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding-left: 2%;
+}
+
+#header_menu nav ul li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.2px;
+}
+/*# sourceMappingURL=head-navigation.component.css.map */

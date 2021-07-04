@@ -1,0 +1,178 @@
+#title_content{
+    width: 100%;
+    background-color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(../../assets/img/ajdepls.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    
+    
+        #text_title{
+            height: 70%;
+            width: 30%;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            padding-left: 2%;
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    margin-top: 30px;
+                    font-weight: normal;
+                }
+                a{
+                    text-decoration: none;
+                    color:white;
+                    padding: 7px;
+                    width: 25%;
+                    height: 20px;
+                    border-radius: 20px;
+                    margin-top: 20px;
+                    text-align: center;
+                }
+
+        }     
+}
+
+// DRUGA SEKCIJA
+#dva_diva{
+    width:100%;
+    margin-top: 2%;
+    height:350px;
+    display: flex;
+    justify-content: space-between;
+        .dva{
+            width:49%;
+            height: inherit;
+            background-color: white;
+            display: flex;
+            align-items: center;
+                .info{
+                    width:60%;
+                    margin-left: 10%;
+                    p{
+                        font-size: 16px;
+                        color: white;
+                    }
+                    h3{
+                        font-size: 30px;
+                        margin-top: 2%;
+                        margin-bottom: 6%;
+                        color: white;
+                    }
+                    a{
+                        text-decoration: none;
+                        color:white;
+                        padding: 5px 30px 5px 30px;
+                        font-size: 16px;
+                        border-radius: 20px;
+                        background-color: black;
+                        transition: color 1s;
+                        transition: background-color 0.5s;
+
+                    }
+                    a:hover{
+                        color:black;
+                        background-color: white;
+                    }
+
+                }
+        }
+        #prvi{
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #drugi{
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+}
+
+// Title Best sekcija
+#title_best{
+    width:100%;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+        h2{
+            font-size: 30px;
+        }
+}
+#products{
+    width: 100%;
+    background-color: inherit;
+    height:350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+// Email obavestenje
+#email_forma{
+    width: 100%;
+    height: auto;
+    background-color: rgb(117,31,255);
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1%;
+        h4{
+            color:white;
+            font-size: 28px;
+            margin-bottom: 0.5%;
+            margin-top: 1%;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+        p{
+            color: white;
+            margin-bottom: 1%;
+        }
+        #mail{
+            width:100%;
+            border:none;
+            height: 30px;
+            font-family: inherit;
+            margin-bottom: 0.6%;
+            padding-left: 15px;
+            font-size: 16px;
+            color: black;
+            border-radius: 20px;
+        }
+        #mail:focus{
+            outline: none;
+        }
+        button{
+            border: none;
+            background-color: black;
+            border-radius: 20px;
+            color: white;
+            padding-left: 40px;
+            padding-right: 40px;
+            height: 30px;
+            letter-spacing: 1px;
+            font-family: 'Raleway', sans-serif;
+            cursor: pointer;
+            margin-top: 0.5%;
+            margin-right:30.5%;
+            transition: background-color 0.6s;
+        }
+        button:hover{
+            background-color: #9b6de6;
+        }
+        button:focus{
+            outline: none;
+        }
+}

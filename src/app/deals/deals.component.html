@@ -1,0 +1,16 @@
+<section class="touch touch1">
+    <h1>Hottest Deals</h1>
+</section>
+<section id="proizvodi" >
+    <article class="proiz" *ngFor="let prod of products">
+        <div class="poriz_img">
+            <img src="{{prod.path}}" alt="{{prod.alt}}">
+        </div>
+        <p>{{prod.name | titlecase}}</p>
+        <div class="cena">
+            <del *ngIf="prod.newprice">{{prod.price | currency}}</del>
+            <small>${{prod.newprice? prod.newprice : prod.price | currency}}</small>
+        </div>
+        <button class="kupi_proiz" (click)="AddCart(prod)">{{BtnValue}}</button>
+    </article>
+</section>

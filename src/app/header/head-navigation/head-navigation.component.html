@@ -1,0 +1,23 @@
+<div id="header_menu">
+    <!-- Header sajta -->
+    <header>
+        <section id="header_naslov">
+            <h1><a routerLink="">{{Heading}}</a></h1>
+        </section>
+        <section id="header_popust">
+            <p>{{getRandomSale()}}</p>
+        </section>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Navigacija -->
+    <nav>
+        <ul>
+            <li *ngFor="let nav of navigation">
+                <a routerLink='{{nav.path}}' routerLinkActive="active">{{nav.link}}</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End of navigacija -->
+
+</div>

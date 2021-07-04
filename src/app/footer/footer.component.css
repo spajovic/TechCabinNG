@@ -1,0 +1,63 @@
+footer {
+  width: 100%;
+  height: auto;
+  padding-top: 4%;
+  background-color: white;
+}
+
+footer #futer_info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+footer #futer_info .info_fut {
+  width: 15%;
+  text-align: left;
+}
+
+footer #futer_info .info_fut h2 {
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10%;
+}
+
+footer #futer_info .info_fut ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  text-align: left;
+}
+
+footer #futer_info .info_fut ul li {
+  margin-top: 6%;
+}
+
+footer #futer_info .info_fut ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer #autor_prava {
+  width: 100%;
+  text-align: center;
+  background-color: #e9e6e6;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+}
+
+footer #autor_prava h5 {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=footer.component.css.map */

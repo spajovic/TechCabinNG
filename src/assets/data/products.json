@@ -1,0 +1,121 @@
+[
+    {
+        "id":1,
+        "name":"Smart watch",
+        "price":29,
+        "alt":"smart watch",
+        "path":"/assets/img/products/product1.jpg",
+        "bestseller":true,
+        "new-price":null
+    },
+    {
+        "id":2,
+        "name":"Laptop",
+        "price":1199,
+        "alt":"smart watch",
+        "path":"/assets/img/products/product2.jpg",
+        "bestseller":true,
+        "newprice":null
+    },
+    {
+        "id":3,
+        "name":"Portable Drone",
+        "price":1460,
+        "alt":"smart watch",
+        "path":"/assets/img/products/product3.jpg",
+        "bestseller":true,
+        "newprice":null
+
+    },
+    {
+        "id":4,
+        "name":"Phone",
+        "price":799,
+        "alt":"smart watch",
+        "path":"/assets/img/products/product4.jpg",
+        "bestseller":true,
+        "newprice":null
+    },
+    {
+        "id":5,
+        "name":"Ear buds",
+        "price":119,
+        "alt":"smart watch",
+        "path":"/assets/img/products/product5.jpg",
+        "bestseller":true,
+        "newprice":null
+    },
+    {
+        "id":6,
+        "name":"Smart watch charger",
+        "price":60,
+        "alt":"smart watch",
+        "path":"/assets/img/products/product6.jpg",
+        "bestseller":false,
+        "newprice":40
+    },
+    {
+        "id":7,
+        "name":"Wireless speaker",
+        "price":40,
+        "alt":"wireless speaker",
+        "path":"/assets/img/products/product7.jpg",
+        "bestseller":false,
+        "newprice":33
+    },
+    {
+        "id":8,
+        "name":"Smart Phone 1",
+        "price":499,
+        "alt":"smart phone",
+        "path":"/assets/img/products/product8.jpg",
+        "bestseller":false,
+        "newprice":469
+    },
+    {
+        "id":9,
+        "name":"Smart phone 2",
+        "price":799,
+        "alt":"smart phone",
+        "path":"/assets/img/products/product9.jpg",
+        "bestseller":false,
+        "newprice":699
+    },
+    {
+        "id":10,
+        "name":"Dslr",
+        "price":329,
+        "alt":"dslr",
+        "path":"/assets/img/products/product10.jpg",
+        "bestseller":false,
+        "newprice":300
+    },
+    {
+        "id":11,
+        "name":"Laptop",
+        "price":1299,
+        "alt":"Laptop",
+        "path":"/assets/img/products/product11.jpg",
+        "bestseller":false,
+        "newprice":1099
+    },
+    {
+        "id":12,
+        "name":"vr headset",
+        "price":800,
+        "alt":"Laptop",
+        "path":"/assets/img/products/product12.jpg",
+        "bestseller":false,
+        "newprice":740
+    },
+    {
+        "id":13,
+        "name":"Smartphone 3",
+        "price":1499,
+        "alt":"Laptop",
+        "path":"/assets/img/products/product13.jpg",
+        "bestseller":false,
+        "newprice":1299
+    }
+
+]

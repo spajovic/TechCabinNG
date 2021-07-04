@@ -1,0 +1,46 @@
+footer{
+    width:100%;
+    height: auto;
+    padding-top: 4%;
+    background-color: white;
+        #futer_info{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 2%;
+                .info_fut{
+                    width:15%;
+                    text-align: left;
+                        h2{
+                            font-size: 22px;
+                            letter-spacing: 0.5px;
+                            margin-bottom: 10%;
+                        }
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            list-style: none;
+                            text-align: left;
+                                li{
+                                    margin-top: 6%;
+                                    a{
+                                        color: inherit;
+                                        text-decoration: none;
+                                    }
+                                }
+                        }
+                }
+        }
+        #autor_prava{
+            width: 100%;
+            text-align: center;
+            background-color: #e9e6e6;
+            padding-top: 0.8%;
+            padding-bottom: 0.8%;
+                h5{
+                    font-size: 16px;
+                    font-weight: normal;
+                    letter-spacing: 1px;
+                }
+        }
+}

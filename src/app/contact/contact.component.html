@@ -1,0 +1,48 @@
+<!-- Sadrzaj kontakt stranice -->
+<section class="touch">
+    <h1>Get In Touch</h1>
+</section>
+<section id="contact_form">
+    <h3 id="contact_naslov"></h3>
+    <div id="forma_drzac">
+        <form action="#" method="#" class="formica" [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div id="gore">
+                <div class="input_forma">
+                    <!-- Prva forma -->
+                    <label for="FirstName" class="labelName" *ngIf="form.get('name')?.valid">First Name</label>
+                    <label for="FirstName" class="labelName" *ngIf="!form.get('name')?.valid" [ngStyle]="{'color':'red'}">First Name (No numbers, max 30 char)</label>
+                    <input type="text" name="FirstName" id="FirstName" formControlName="name" [@valid]="form.get('name')?.valid">
+                    <!-- Druga forma -->
+                    <label for="Email" class="labelEmail" *ngIf="form.get('email')?.valid"> Email</label>
+                    <label for="Email" class="labelEmail" *ngIf="!form.get('email')?.valid" [ngStyle]="{'color':'red'}">Email (invalid format)</label>
+                    <input type="text" name="Email" id="Email" formControlName="email" [@valid]="form.get('email')?.valid">
+            </div>
+            <div class="input_forma">
+                    <!-- Prva forma -->
+                    <label for="LastName" class="labelSurname" *ngIf="form.get('surname')?.valid "> Last Name</label>
+                    <label for="LastName" class="labelSurname" *ngIf="!form.get('surname')?.valid " [ngStyle]="{'color':'red'}">Last Name (No numbers, max 30 char)</label>
+                    <input type="text" name="LastName" id="LastName" formControlName="surname" [@valid]="form.get('surname')?.valid ">
+                    <!-- Druga forma -->
+                    <label for="Subject" class="labelSubject" *ngIf="form.get('subject')?.valid ">Subject</label>
+                    <label for="Subject" class="labelSubject" *ngIf="!form.get('subject')?.valid" [ngStyle]="{'color':'red'}">Subject (max 2-30 char)</label>
+                    <input type="text" name="Subject" id="Subject" formControlName="subject" [@valid]="form.get('subject')?.valid ">
+            </div>
+            </div>
+            <div id="dole">
+                <label for="text_area" class="labelArea" *ngIf="form.get('message')?.valid">Message</label>
+                <label for="text_area" class="labelArea" *ngIf="!form.get('message')?.valid" [ngStyle]="{'color':'red'}">Message (max 2-500 char)</label>
+                <textarea name="text_area" id="text_area" cols="30" formControlName="message" [@valid]="form.get('message')?.valid">
+                </textarea>
+            </div>
+
+            <div id="ispod_forme">
+                <div id="cxbox_label">
+                    <label for="cxbox" class="boxLabel" [ngStyle]="{color:colorTermsLabel()}">I agree with terms of use</label>
+                    <input type="checkbox" name="cxbox" id="cxbox" formControlName="terms">
+                </div>
+                <button id="sbm_form" type="submit" [disabled]="!form.valid">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- Kraj sadrzaj stranice -->
